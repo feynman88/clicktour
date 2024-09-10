@@ -14,15 +14,15 @@ export default function SustinabilitySection() {
             Travel Responsibly, Leave a Positive Impact
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-            At Click Tour, we integrate sustainable practices into every trip, ensuring your travel benefits both the
-            environment and local communities.
+            At Click Tour, we integrate sustainable practices into every excursion, ensuring your travel benefits both
+            the environment and local communities.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="#"
               className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600"
             >
-              Learn More about Sustainability
+              Learn More about Sustainabilitya
             </a>
           </div>
         </div>
