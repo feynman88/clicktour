@@ -3,7 +3,7 @@ export default function SustinabilitySection() {
     <div className="relative isolate overflow-hidden bg-white ">
       <div className="relative px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
         <video autoPlay loop muted playsInline className="absolute inset-0 -z-10 h-full w-full object-cover">
-          <source src="/public/videos/suswhite.mp4" type="video/mp4" />
+          <source src="/videos/suswhite.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
