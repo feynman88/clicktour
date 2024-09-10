@@ -1,7 +1,7 @@
 // import { useState } from "react";
 
 import "./output.css";
-import Hero from "./hero";
+import Hero from "./Hero";
 import DestinationsSection from "./DestinationsSection";
 import ServicesSection from "./ServicesSection";
 import SustinabilitySection from "./SustinabilitySection";
