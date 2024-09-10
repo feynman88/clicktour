@@ -21,7 +21,7 @@ export default function Example() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Click Tour</span>
-              <img className="h-8 w-auto" src="/src/assets/clicktourlog.png" alt="" />
+              <img className="h-8 w-auto" src="/public/assets/clicktourlog.png" alt="" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -93,7 +93,7 @@ export default function Example() {
 
       <div className="relative isolate overflow-hidden pt-14">
         <video autoPlay loop muted playsInline className="absolute inset-0 -z-10 h-full w-full object-cover">
-          <source src="/src/videos/bm.mp4" type="video/mp4" />
+          <source src="/public/videos/bm.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div
