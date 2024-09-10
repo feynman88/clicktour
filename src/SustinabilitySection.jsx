@@ -9,7 +9,7 @@ export default function SustinabilitySection() {
 
         <div className="relative mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-green-600 to-yellow-200 bg-clip-text text-transparent sm:text-4xl">
-            Commitment to Sustainability
+           Our Commitment to Sustainability
             <br />
             Travel Responsibly, Leave a Positive Impact
           </h2>
