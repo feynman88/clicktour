@@ -13,7 +13,7 @@ export default function Example() {
             captivating places.
           </p>
           <br />
-          <a href="https://www.google.com" className="mt-6 text-lg leading-8 text-gray-600 flex items-center">
+          <a href="/destinations" className="mt-6 text-lg leading-8 text-gray-600 flex items-center">
             View All Destinations
             <ArrowUpRightIcon className="mt-1 ml-2 h-5 w-5 flex-none text-black-800" aria-hidden="true" />
           </a>
