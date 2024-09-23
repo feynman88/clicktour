@@ -137,7 +137,7 @@ export default function About() {
         <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <div>
-              <img src="./public/assets/mission.png" alt="" className="w-20 h-20 mb-5 " />
+              <img src="./assets/mission.png" alt="" className="w-20 h-20 mb-5 " />
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our mission</h2>
               <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
                 <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
@@ -151,7 +151,7 @@ export default function About() {
               </div>
             </div>
 
-            <img src="./public/assets/vision.png" alt="" className="w-20 h-20 mb-5 " />
+            <img src="./assets/vision.png" alt="" className="w-20 h-20 mb-5 " />
 
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Vision</h2>
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
@@ -180,7 +180,7 @@ export default function About() {
         {/* Values section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <img src="./public/assets/customer.png" alt="" className="w-20 h-20 mb-5 " />
+            <img src="./assets/customer.png" alt="" className="w-20 h-20 mb-5 " />
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our values</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               We place Customer-Centricity at the forefront, ensuring that every decision is made with our clients best
