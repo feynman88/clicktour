@@ -5,7 +5,7 @@ import Hero from "./Hero";
 import DestinationsSection from "./DestinationsSection";
 import ServicesSection from "./ServicesSection";
 import SustinabilitySection from "./SustinabilitySection";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 function App() {
   return (
     <>
@@ -13,7 +13,7 @@ function App() {
       <DestinationsSection />
       <ServicesSection />
       <SustinabilitySection />
-      <Footer />
+     
     </>
   );
 }

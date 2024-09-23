@@ -3,27 +3,29 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "#" },
-  { name: "About us", href: "#" },
-  { name: "Sustinablity", href: "#" },
-  { name: "Destinations", href: "#" },
-  { name: "Technology", href: "#" },
-  { name: "Contact us", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "About us", href: "/about" },
+  { name: "Sustainability", href: "/sustainability" },
+  { name: "Destinations", href: "/destinations" },
+  { name: "Technology", href: "/tech" },
+  { name: "Contact us", href: "contactus" },
 ];
 
-export default function Example() {
+export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="">
+    <div className=" bg-slate-100">
       <header className="reltive inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-          <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+          {/* logo */}
+          <div className="flex lg:flex-1 pl-20">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Click Tour</span>
               <img className="h-8 w-auto" src="/assets/clicktourlog.png" alt="" />
             </a>
           </div>
+
           <div className="flex lg:hidden">
             <button
               type="button"
@@ -71,26 +73,17 @@ export default function Example() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-800"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-slate-600"
                     >
                       {item.name}
                     </a>
                   ))}
-                </div>
-                <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-black hover:bg-gray-800"
-                  >
-                    Log in
-                  </a>
                 </div>
               </div>
             </div>
           </Dialog.Panel>
         </Dialog>
       </header>
-        </div>
-  
+    </div>
   );
 }
