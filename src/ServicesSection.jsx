@@ -13,7 +13,7 @@ export default function ServicesSection() {
         <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
           <div className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
             <img
-              className="absolute inset-0 h-full w-full bg-gray-50 object-cover"
+              className="absolute inset-0 h-full w-full bg-gray-50 object-cover object-top"
               src="https://images.unsplash.com/photo-1675371627059-cfbf29585a4f?q=80&w=3096&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
             />
@@ -27,7 +27,7 @@ export default function ServicesSection() {
 
             <div className="mt-10 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
               <p>
-                Discover a world of possibilities with our diverse range of travel services. Whether you're seeking
+                Discover a world of possibilities with our diverse range of travel services. Whether you are seeking
                 relaxation, adventure, or cultural immersion, we have the perfect journey for you.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
