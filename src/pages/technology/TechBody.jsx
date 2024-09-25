@@ -21,7 +21,7 @@ export default function TechBody() {
                                 <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
                                     <img
                                         className="size-full object-cover object-top"
-                                        src="public/assets/sejoursc.jpg"
+                                        src="/assets/sejoursc.jpg"
                                         alt=""
                                     />
                                 </div>
@@ -42,7 +42,7 @@ export default function TechBody() {
                             <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
                                 <img
                                     className="w-full max-lg:max-w-xs"
-                                    src="public/assets/booking.png"
+                                    src="/assets/booking.png"
                                     alt=""
                                 />
                             </div>
@@ -61,7 +61,7 @@ export default function TechBody() {
                             <div className="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
                                 <img
                                     className="h-[min(152px,40cqw)] object-cover object-center"
-                                    src="public/assets/analytics.png"
+                                    src="/assets/analytics.png"
                                     alt=""
                                 />
                             </div>

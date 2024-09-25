@@ -6,7 +6,7 @@ export default function Header() {
                 className="absolute inset-0 -z-10 h-full w-full object-cover object-top"
             
             >
-                <source src="public/videos/techbackground.mp4" type="video/mp4" />
+                <source src="/videos/techbackground.mp4" type="video/mp4" />
             </video>
 
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
