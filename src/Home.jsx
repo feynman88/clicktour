@@ -13,7 +13,6 @@ function App() {
       <DestinationsSection />
       <ServicesSection />
       <SustinabilitySection />
-     
     </>
   );
 }

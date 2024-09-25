@@ -6,6 +6,7 @@ import "./output.css";
 import About from "./pages/About";
 import Footer from "./pages/Footer";
 import Sustainability from "./pages/Sustainability";
+import Tachnology from "./pages/technology/Technology";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/destinations" element={<Destinations />} />
         <Route path="/about" element={<About />} />
         <Route path="/sustainability" element={<Sustainability />} />
+        <Route path="/tech" element={<Tachnology />} />
       </Routes>
       <Footer />
     </Router>
