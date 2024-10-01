@@ -1,15 +1,16 @@
 const navigation = {
   solutions: [
-    { name: "Home", href: "#" },
-    { name: "About us", href: "#" },
-    { name: "Technology", href: "#" },
-    { name: "Contact us", href: "#" },
+    { name: "Home", href: "/" },
+    { name: "About Us", href: "about" },
+    { name: "Our Destinations", href: "/destinations" },
+    { name: "Sustainability", href: "/sustainability" },
+    { name: "Technology", href: "/tech" },
+    { name: "Contact Us", href: "/contactus" },
   ],
   support: [
-    { name: "Phone", href: "#" },
-    { name: "Email", href: "#" },
-    { name: "Location", href: "#" },
-    { name: "Contact us", href: "#" },
+    { name: "01023123123123", href: "#" },
+    { name: "info@example.com", href: "mailto:info@example.com" },
+ 
   ],
   company: [
     { name: "About", href: "#" },

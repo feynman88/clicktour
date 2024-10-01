@@ -142,9 +142,7 @@ export default function About() {
               <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
                 <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                   <p className="text-xl leading-8 text-gray-600">
-                    To craft journeys that go beyond sightseeing, offering travelers a deeper connection to Egypt’s
-                    history, culture, and natural beauty, all while ensuring a positive impact on the environment and
-                    local communities.
+                    To craft transformative journeys that go beyond sightseeing, allowing travelers to connect deeply with the rich histories, vibrant cultures, and stunning natural beauty of our destinations, all while ensuring a positive impact on the environment and local communities.
                   </p>
                   <div className="mt-10 max-w-xl text-base leading-7 text-gray-700"></div>
                 </div>
@@ -157,9 +155,7 @@ export default function About() {
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                 <p className="text-xl leading-8 text-gray-600">
-                  To craft journeys that go beyond sightseeing, offering travelers a deeper connection to Egypt’s
-                  history, culture, and natural beauty, all while ensuring a positive impact on the environment and
-                  local communities.
+                  To be a leading Destination Management Company recognized globally for our commitment to eco-friendly tourism, innovation, and delivering personalized, seamless travel experiences that connect our clients with the heart and soul of the destinations we serve.
                 </p>
                 <div className="mt-10 max-w-xl text-base leading-7 text-gray-700"></div>
               </div>
