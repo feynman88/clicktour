@@ -5,25 +5,23 @@ const navigation = {
     { name: "Our Destinations", href: "/destinations" },
     { name: "Sustainability", href: "/sustainability" },
     { name: "Technology", href: "/tech" },
-    { name: "Contact Us", href: "/contactus" },
   ],
   support: [
-    { name: "01023123123123", href: "#" },
-    { name: "info@example.com", href: "mailto:info@example.com" },
- 
+    // { name: "01023123123123", href: "#" },
+    { name: "commercial@clicktour.travel", href: "mailto:info@example.com" },
   ],
-  company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
-  ],
-  legal: [
-    { name: "Claim", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" },
-  ],
+  // company: [
+  //   { name: "About", href: "#" },
+  //   { name: "Blog", href: "#" },
+  //   { name: "Jobs", href: "#" },
+  //   { name: "Press", href: "#" },
+  //   { name: "Partners", href: "#" },
+  // ],
+  // legal: [
+  //   { name: "Claim", href: "#" },
+  //   { name: "Privacy", href: "#" },
+  //   { name: "Terms", href: "#" },
+  // ],
 };
 
 export default function Footer() {

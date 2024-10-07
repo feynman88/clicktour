@@ -7,7 +7,6 @@ import About from "./pages/About";
 import Footer from "./pages/Footer";
 import Sustainability from "./pages/Sustainability";
 import Tachnology from "./pages/technology/Technology";
-import Contactus from "./pages/Contactus";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/sustainability" element={<Sustainability />} />
         <Route path="/tech" element={<Tachnology />} />
-        <Route path="/contactus" element={<Contactus />} />
       </Routes>
       <Footer />
     </Router>

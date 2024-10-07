@@ -7,9 +7,8 @@ const navigation = [
   { name: "About us", href: "/about" },
   { name: "Destinations", href: "/destinations" },
   { name: "Sustainability", href: "/sustainability" },
-  
+
   { name: "Technology", href: "/tech" },
-  { name: "Contact us", href: "contactus" },
 ];
 
 export default function Nav() {
