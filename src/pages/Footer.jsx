@@ -8,7 +8,7 @@ const navigation = {
   ],
   support: [
     // { name: "01023123123123", href: "#" },
-    { name: "commercial@clicktour.travel", href: "mailto:info@example.com" },
+    { name: "commercial@clicktour.travel", href: "mailto:commercial@clicktour.travel" },
   ],
   // company: [
   //   { name: "About", href: "#" },
